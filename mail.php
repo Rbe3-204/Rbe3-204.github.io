@@ -17,7 +17,7 @@ header("Location: C:\Users\User\Documents\GitHub\mail.php");
     mail($to, $subject, $body);
 
     // Redirect to a thank you page or display a success message
-    header("Location: Home.html");
+    header("Location: index.html");
     exit;
   }
 ?>
