@@ -1,7 +1,7 @@
 <?php
 header("Location: C:\Users\User\Documents\GitHub\mail.php");
   // Check if the form has been submitted
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if ($_SERVER["REQUEST_METHOD"] == "get") {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
